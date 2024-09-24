@@ -31,21 +31,3 @@ npm install @playwright/test
 ### 3. Install Browsers
 npx playwright install
 
-## Project Structure 
-
-├── tests/                  # Test scripts
-│   └── example.spec.js      # Sample test file
-├── test-data/               # Test data files (JSON, CSV, etc.)
-│   └── data.json            # Example JSON data file
-├── playwright.config.js     # Playwright configuration
-├── package.json             # Node.js dependencies and scripts
-├── README.md                # Documentation
-└── .gitignore               # Git ignore rules
-
-
-## Running Tests
-1. Running All tests: npx playwright test
-2. Running a Specific test: npx playwright test tests/example.spec.js
-3. Run Tests in a specific browser: npx playwright test --project=chromium
-4. Run Tests in headed mode: npx playwright test --headed
-5. Generate HTML Reports: npx playwright show-report
