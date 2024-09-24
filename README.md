@@ -24,14 +24,14 @@ First, clone this repository to your local machine:
 git clone https://github.com/your-username/playwright-framework.git
 cd playwright-framework
 
-**### 2. Install Dependencies**
+### 2. Install Dependencies
 npm install
 npm install @playwright/test
 
-**### 3. Install Browsers**
+### 3. Install Browsers
 npx playwright install
 
-**## Project Structure **
+## Project Structure 
 
 ├── tests/                  # Test scripts
 │   └── example.spec.js      # Sample test file
@@ -43,7 +43,7 @@ npx playwright install
 └── .gitignore               # Git ignore rules
 
 
-**## Running Tests **
+## Running Tests
 1. Running All tests: npx playwright test
 2. Running a Specific test: npx playwright test tests/example.spec.js
 3. Run Tests in a specific browser: npx playwright test --project=chromium
