@@ -15,8 +15,8 @@ This is a basic automation framework built using Playwright for end-to-end testi
 ## Pre-requisites
 
 Before you begin, ensure that you have the following installed on your machine:
-1. Node.js (v14 or higher) - Download here
-2. Git (to clone the repository) - Download here
+1. Node.js (v14 or higher) 
+2. Git (to clone the repository) 
 
 ## Installation
 
